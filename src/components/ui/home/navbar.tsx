@@ -7,7 +7,6 @@ import { ModeToggle } from "../../dark-mode";
 import Link from "next/link";
 import { SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
 import { SignedIn, UserButton } from "@clerk/nextjs";
-import SearchInput from "./search-input";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
